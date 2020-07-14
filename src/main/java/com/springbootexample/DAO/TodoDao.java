@@ -8,6 +8,7 @@ public class TodoDao implements Dao<Todo> {
     @Override
     public Optional<Todo> get(int id) {
         return Optional.ofNullable(todoList.get(id));
+        System.out.println("hi");
     }
  
     @Override
